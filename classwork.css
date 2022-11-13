@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root {
+--Soft-orange: hsl(35, 77%, 62%);
+--Soft-red: hsl(5, 85%, 63%);
+--Off-white: hsl(36, 100%, 99%);
+--Grayish-blue: hsl(233, 8%, 79%);
+--Dark-grayish-blue: hsl(236, 13%, 42%);
+--Very-dark-blue: hsl(240, 100%, 5%);
+}
+body{
+    max-width: 960px;
+    margin: 0 auto;
+}
+p{
+    font-size: 15px;
+    color: var(--Dark-grayish-blue);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.link-items{
+    padding: 10px;
+}
+.link-items a{
+    margin: 0 10px;
+    color: var(--Dark-grayish-blue);
+
+}
+.main-image{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.frs-picture{
+    width: 630px;
+}
+.frs-picture img{
+    width: 100%;
+    height: auto;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.text div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+.text div button{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    background-color: var(--Soft-red);
+    border: none;
+    color: var(--Off-white);
+    text-transform: uppercase;
+}
+
+
+
+.New-Text{
+    width: 300px;
+    padding: 20px;
+    background-color:var(--Very-dark-blue);
+}
+.New-Text h1{
+    color: var(--Soft-orange);
+    margin-bottom: 20px;
+}
+.New-Text div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+}
+.New-Text div h4{
+    color: var(--Off-white);
+    /* padding: 20px; */
+}
+hr{
+    color: var(--Dark-grayish-blue);
+    border: 0.2px solid;
+}
+.Card-section{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.first-card{
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+.first-card img{
+    height: 140px;
+}
+.first-card div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.first-card h1{
+    color: var(--Grayish-blue);
+}
